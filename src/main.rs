@@ -7,7 +7,7 @@ async fn main() -> std::io::Result<()> {
     let host = "0.0.0.0";
     let port = env::var("PORT")
         .unwrap_or_else(|_| "8000".to_string())
-        .parse()
+        .parse::<u16>()
         .expect("Failed to parse PORT variable");
 
     // Get the current working directory
@@ -17,8 +17,7 @@ async fn main() -> std::io::Result<()> {
     let static_dir = current_dir.join("static");
 
     HttpServer::new(move || {
-        App::new()
-            .service(Files::new("/", static_dir.clone()).index_file("index.html"))
+        App::new().service(Files::new("/", static_dir.clone()).index_file("index.html"))
     })
     .bind((host, port))?
     .run()

@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=1, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=1, user-scalable=no"
+    />
 
-    
     <title>2048 Game</title>
     <link
       rel="stylesheet"
@@ -43,8 +45,6 @@
 
       .square {
         position: absolute;
-        width: 90px; /* Adjust this value based on your grid cell size */
-        height: 90px; /* Adjust this value based on your grid cell size */
         margin: 5px;
         display: flex;
         align-items: center;
@@ -54,7 +54,6 @@
         background-color: #f5f5f5;
         border-radius: 7.5px;
         padding: 15px;
-        position: absolute;
         top: 0;
         left: 0;
         transition: top 0.1s, left 0.1s, background-color 0.1s;
@@ -65,11 +64,77 @@
       .disable-scroll {
         touch-action: none;
       }
+      .scoreboard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .score-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+      }
+
+      .scoreboard h2 {
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      .scoreboard p {
+        margin: 0;
+        font-size: 1.2em;
+      }
+
+      button {
+        background-color: #edc22e;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #edc850;
+      }
+      .game-over-popup {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(
+          238,
+          228,
+          218,
+          0.7
+        ); /* Adjust the transparency here */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10; /* Ensure the popup is above the grid */
+      }
+
+      .game-over-content {
+        text-align: center;
+      }
+
+      .game-over-content h2 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
     <script type="module">
-      import init from "./game2048.js?v2";
+      import init from "./game2048.js?v3";
       init();
     </script>
   </body>
