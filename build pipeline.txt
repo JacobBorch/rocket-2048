@@ -1,0 +1,9 @@
+(trunk serve --open)
+wasm-pack build --target web
+kopier pkg og index over i rocket2048 static
+Change index to target game2048.js?v1 (eller den version det skal være)
+(docker build -t rust2048 .)
+(docker run -p 8000:8000 rust2048 (tjek docker image))
+
+heroku container:push web -a rust2048
+heroku container:release web -a rust2048

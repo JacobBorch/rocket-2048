@@ -12,9 +12,9 @@ export interface InitOutput {
   readonly __wbindgen_malloc: (a: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number) => number;
   readonly __wbindgen_export_2: WebAssembly.Table;
-  readonly _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h6e77570ac4dc94e5: (a: number, b: number) => void;
-  readonly _dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h9e788d6620b382c5: (a: number, b: number, c: number) => void;
-  readonly _dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h33adb66de7ea358f: (a: number, b: number, c: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke0_mut__h19ffc202ea0ba2d4: (a: number, b: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke1_mut_ref__hcb6c14ebece68fbf: (a: number, b: number, c: number) => void;
+  readonly wasm_bindgen__convert__closures__invoke1_mut__h373c9caa28565fd2: (a: number, b: number, c: number) => void;
   readonly __wbindgen_exn_store: (a: number) => void;
   readonly __wbindgen_free: (a: number, b: number) => void;
   readonly __wbindgen_start: () => void;
