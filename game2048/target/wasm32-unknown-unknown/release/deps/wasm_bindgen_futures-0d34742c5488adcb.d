@@ -1,0 +1,9 @@
+C:\Users\Jacob\OneDrive\Desktop\Projekter\Rust\2048\game2048\target\wasm32-unknown-unknown\release\deps\libwasm_bindgen_futures-0d34742c5488adcb.rmeta: C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\lib.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\queue.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\task\singlethread.rs
+
+C:\Users\Jacob\OneDrive\Desktop\Projekter\Rust\2048\game2048\target\wasm32-unknown-unknown\release\deps\libwasm_bindgen_futures-0d34742c5488adcb.rlib: C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\lib.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\queue.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\task\singlethread.rs
+
+C:\Users\Jacob\OneDrive\Desktop\Projekter\Rust\2048\game2048\target\wasm32-unknown-unknown\release\deps\wasm_bindgen_futures-0d34742c5488adcb.d: C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\lib.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\queue.rs C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\task\singlethread.rs
+
+C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\lib.rs:
+C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\queue.rs:
+C:\Users\Jacob\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.34\src\task\singlethread.rs:
