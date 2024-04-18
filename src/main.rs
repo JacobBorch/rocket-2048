@@ -14,7 +14,7 @@ async fn main() -> std::io::Result<()> {
 
     // Get the current working directory
     let current_dir = env::current_dir().expect("Failed to get current directory");
-
+    //t
     let static_dir = current_dir.join("static");
     //println!{"Hosting at: {}:{}", host, port};
     HttpServer::new(move || {
