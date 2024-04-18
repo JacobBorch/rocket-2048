@@ -1,1 +1,0 @@
-C:\Users\Jacob\OneDrive\Desktop\rocket-2048\game2048\target\wasm32-unknown-unknown\release\game2048.wasm: C:\Users\Jacob\OneDrive\Desktop\rocket-2048\game2048\src\grid.rs C:\Users\Jacob\OneDrive\Desktop\rocket-2048\game2048\src\lib.rs C:\Users\Jacob\OneDrive\Desktop\rocket-2048\game2048\src\model.rs
